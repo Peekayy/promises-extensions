@@ -1,6 +1,6 @@
 {
   "name": "promises-extensions",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Peekayy/promises-extensions.git"
@@ -9,7 +9,9 @@
     "email": "peekayy.dev@gmail.com",
     "name": "Peekayy"
   },
-  "main": "extensions.js",
-  "dependencies": {
+  "main": "dist/extensions.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.3"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "newLine": "LF",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}
